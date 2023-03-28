@@ -19,7 +19,7 @@ interface GameApi {
     suspend fun getGames():Response<List<GameModel>>  //Coroutine call to a suspend function for network Request
 
     @GET(GAME_ID_ENDPOINT)
-    suspend fun getGameId(@Query(value = "id") id: Int):Response<SpecificGameModel>
+    suspend fun getGameById(@Query(value = "id") id: Int):Response<SpecificGameModel>
 
 
 }
