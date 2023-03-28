@@ -9,4 +9,10 @@ class Constants {
 
         const val KEY_GAME_ID = "com.example.gameapp.id"
     }
+
+    object  Screens {
+
+        const val HOME_SCREEN = "home_screen"
+        const val DETAIL_SCREEN = "detail_screen"
+    }
 }
