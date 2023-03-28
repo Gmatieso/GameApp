@@ -12,6 +12,12 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
 import javax.inject.Singleton
 
+/*
+Retrofit is a library that simplifies the process of making
+HTTP requests from an Android Application.
+Overall Retrofit simplifies the process of making network requests from our Android App
+ */
+
 @Module
 @InstallIn(SingletonComponent::class)
 object RetrofitModule {
