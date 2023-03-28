@@ -1,6 +1,6 @@
 package com.example.gameapp.data.remote.models
 
-data class GamesItem(
+data class GameModel(
     val developer: String,
     val freetogame_profile_url: String,
     val game_url: String,
