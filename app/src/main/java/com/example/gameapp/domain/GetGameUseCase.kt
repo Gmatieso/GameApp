@@ -1,4 +1,7 @@
 package com.example.gameapp.domain
 
-class GetGameUseCase {
+import com.example.gameapp.repo.GameRepository
+import javax.inject.Inject
+
+class GetGameUseCase @Inject constructor(private val gameRepository: GameRepository){
 }
