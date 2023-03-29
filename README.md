@@ -1,5 +1,5 @@
 # GameApp
-**🚧 Project Status: Under Active Development 🚧**
+<br> **🚧 Project Status: Under Active Development 🚧** </br>
 Android App that uses Retrofit and Jetpack Compose to easily consume a gaming API and display information about popular games. 
 The app allows users to browse a list of games and view detailed information about each one. 
 The app has a clean, intuitive user interface built with Jetpack Compose, making it easy to use and navigate.
