@@ -1,4 +1,4 @@
-package com.example.gameapp
+package com.example.gameapp.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
