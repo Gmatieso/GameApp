@@ -64,4 +64,3 @@ class GameViewModel @Inject constructor(
     }
 
 }
-}
