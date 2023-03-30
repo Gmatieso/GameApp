@@ -46,4 +46,6 @@ The app has a clean, intuitive user interface built with Jetpack Compose, making
 [Documentation](https://www.freetogame.com/api-doc)
 
 ![App Screenshot]
+![img.png](img.png)
+![img_1.png](img_1.png)
 
