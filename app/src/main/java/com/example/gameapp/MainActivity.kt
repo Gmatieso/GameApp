@@ -10,6 +10,9 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.compose.rememberNavController
+import com.example.gameapp.ui.nav.SetupNavHost
 import com.example.gameapp.ui.theme.GameAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +25,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    val navController = rememberNavController()
+                    SetupNavHost(navController = navController, gameViewModel = viewModel())
                 }
             }
         }
