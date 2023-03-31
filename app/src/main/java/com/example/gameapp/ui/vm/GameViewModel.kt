@@ -20,6 +20,11 @@ class GameViewModel @Inject constructor(
     /*
     How Kotlin coroutines and liveData can be used
     together to implement asynchronous data fetching and stateManagement in ViewModel
+
+    The below code converts PRIVATE MUTABLE  live data _games to  PUBLIC IMMUTABLE live data games
+    of same type and sets its value to _games. get() fn gets the current value of games.
+    This Design pattern is commonly used in Android development  to ensure that the state of a view model
+    can only be modified from within the view-model itself
      */
     private val _games = MutableLiveData<List<GameItem>>()
     val games: LiveData<List<GameItem>> get() = _games
@@ -49,7 +54,8 @@ class GameViewModel @Inject constructor(
     }
 
     fun getGameById(id: Int) {
-
+        //Coroutine is a lightweight thread that can suspend its execution
+        //uses ViewModelScope.launch to launch a coroutine
         viewModelScope.launch {
 
             try {

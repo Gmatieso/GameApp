@@ -28,7 +28,7 @@ import com.example.gameapp.ui.vm.GameViewModel
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun HomeScreen(gameViewModel: GameViewModel, navController: NavController) {
-    val games = gameViewModel.games.observeAsState(listOf()).value
+    val games = gameViewModel.games.observeAsState(listOf()).value  //converts LiveData object into state object that can be observed by the UI.
 
     Scaffold(
         topBar = {
