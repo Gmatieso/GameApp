@@ -2,14 +2,12 @@ package com.example.gameapp.di
 
 import com.example.gameapp.data.remote.GameApi
 import com.example.gameapp.util.Constants.Companion.BASE_URL
-import com.google.gson.Gson
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import javax.inject.Singleton
 
 /*
