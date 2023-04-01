@@ -8,11 +8,15 @@ The app has a clean, intuitive user interface built with Jetpack Compose, making
 
 - Retrofit2
 - Coil
-- Compose Navigation
+- Compose Navigation : 
 - Hilt Navigation
-- LiveData
-- ViewModel
-- Dagger Hilt
+- LiveData : A lifecycle-aware data holder with observer pattern 
+- ViewModel : The viewModel class is designed to store and manage UI-related data in a lifecycle  concious way 
+- Dagger-Hilt : A dependency injection library for Android that reduces the boilerplate of doing manual dependency injection in your Project
+- Kotlin Coroutines : A Concurrency design pattern that you can use on Android to simplify code that executes asynchronously
+ 
+- Material Library : Modular and customizable Material Design UI Components for Android
+
 
 ## Features
 
